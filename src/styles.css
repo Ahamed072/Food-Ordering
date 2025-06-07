@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* You can add global styles to this file, and also import other style files */
+
+/* Import Bootstrap CSS */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* Import Font Awesome CSS */
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+/* Global Custom Button Styles */
+.custom-button {
+  color: white;
+  background-image: linear-gradient(#d0b200, #a58d00);
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px; /* This margin might be better adjusted contextually in components */
+}
+
+.custom-outline-button {
+  color: #d0b200;
+  background-color: transparent;
+  width: 130px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d0b200;
+  border-radius: 8px;
+}
